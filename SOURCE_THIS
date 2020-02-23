@@ -1,0 +1,10 @@
+#
+# Source this file to setup the TopDIR variable for the build
+#
+# $ . ./SOURCE_THIS
+# $ make clean modules
+# $ sudo make install
+
+export TopDIR=$(realpath $(pwd))
+
+echo "TopDIR:${TopDIR}"
